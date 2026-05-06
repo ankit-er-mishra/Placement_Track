@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
-// import Login from "./components/Login";
-// import Sidebar from "./components/Sidebar";
-// import Dashboard from "./components/Dashboard";
-// import DSA from "./components/DSA";
-// import Development from "./components/Development";
-// import MockTest from "./components/MockTest";
-// import Goals from "./components/Goals";
+import Login from "./components/Login";
+import Sidebar from "./components/Sidebar";
+import Dashboard from "./components/Dashboard";
+import DSA from "./components/DSA";
+import Development from "./components/Development";
+import MockTest from "./components/MockTest";
+import Goals from "./components/Goals";
 import "./App.css";
 
 function App() {
