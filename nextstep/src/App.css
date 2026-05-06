@@ -38,7 +38,7 @@
   --shadow: 0 1px 3px rgba(0,0,0,0.3), 0 4px 12px rgba(0,0,0,0.2);
 }
 
-* { margin: 0; padding: 0; box-sizing: border-box; }
+* { margin: 0; padding: 0; box-sizing: border-box;}
 
 body {
   font-family: 'Space Grotesk', sans-serif;
@@ -51,6 +51,7 @@ body {
 .app-layout {
   display: flex;
   min-height: 100vh;
+  background-color: var(--bg);
 }
 
 .main-content {
