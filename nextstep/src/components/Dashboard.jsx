@@ -10,7 +10,7 @@ function Dashboard({ user }) {
 
   return (
     <div>
-      {/* Welcome Banner */}
+    
       <div className="welcome-banner">
         <div>
           <h2>Welcome back, {user.name}! 👋</h2>
@@ -22,7 +22,7 @@ function Dashboard({ user }) {
         <div className="banner-emoji">🎯</div>
       </div>
 
-      {/* Stat Cards */}
+  
       <div className="cards-grid">
         <div className="stat-card blue">
           <div className="card-label">Total Tasks</div>
@@ -46,7 +46,7 @@ function Dashboard({ user }) {
         </div>
       </div>
 
-      {/* Overall Progress */}
+     
       <div className="section-box">
         <h3>📈 Overall Progress</h3>
         <div className="progress-bar-wrap">
@@ -83,7 +83,7 @@ function Dashboard({ user }) {
         </div>
       </div>
 
-      {/* Quick Tips */}
+      
       <div className="section-box">
         <h3>💡 Quick Tips for Today</h3>
         <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
